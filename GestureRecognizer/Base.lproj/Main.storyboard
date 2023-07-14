@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GestureRecognizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="james" translatesAutoresizingMaskIntoConstraints="NO" id="Y59-RU-H4c">
+                                <rect key="frame" x="56" y="239" width="281" height="267"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="James" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z11-NZ-edi">
+                                <rect key="frame" x="140" y="514" width="113" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="GTR-v1-n8a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Y59-RU-H4c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="56" id="El6-8u-GhP"/>
+                            <constraint firstItem="Y59-RU-H4c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HUk-4m-r2m"/>
+                            <constraint firstItem="Z11-NZ-edi" firstAttribute="top" secondItem="Y59-RU-H4c" secondAttribute="bottom" constant="8" id="dAK-ey-YOL"/>
+                            <constraint firstItem="Z11-NZ-edi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="fGC-jj-SCA"/>
+                            <constraint firstItem="Y59-RU-H4c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="180" id="oML-ge-ji5"/>
+                            <constraint firstItem="Y59-RU-H4c" firstAttribute="centerX" secondItem="Z11-NZ-edi" secondAttribute="centerX" id="pZK-eS-Y5C"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Z11-NZ-edi" secondAttribute="bottom" constant="261" id="zle-Ta-NZu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Y59-RU-H4c" id="YNL-OY-ZYn"/>
+                        <outlet property="myLabel" destination="Z11-NZ-edi" id="ah9-0D-zg5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.58778625954199" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="james" width="612" height="458"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "05D41B04-0837-4246-B09B-24CA3ACC5397"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "270FF13E-6B9D-4001-AEE6-9BDE42E1416F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GestureRecognizer/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "270FF13E-6B9D-4001-AEE6-9BDE42E1416F - 5b9a0aba06bb3f5e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GestureRecognizer.ViewController.imageView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "GestureRecognizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dogukan/Desktop/Ios%20Dev/GestureRecognizer/GestureRecognizer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "270FF13E-6B9D-4001-AEE6-9BDE42E1416F - ff956bceddded3aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GestureRecognizer.ViewController.imageView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "GestureRecognizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dogukan/Desktop/Ios%20Dev/GestureRecognizer/GestureRecognizer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "270FF13E-6B9D-4001-AEE6-9BDE42E1416F - 5166c15af648985b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GestureRecognizer.ViewController.imageView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "GestureRecognizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dogukan/Desktop/Ios%20Dev/GestureRecognizer/GestureRecognizer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "270FF13E-6B9D-4001-AEE6-9BDE42E1416F - 5f7ee1e627e52990"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GestureRecognizer.ViewController.imageView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "GestureRecognizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dogukan/Desktop/Ios%20Dev/GestureRecognizer/GestureRecognizer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "270FF13E-6B9D-4001-AEE6-9BDE42E1416F - c76cfb0894595c90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GestureRecognizer.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; GestureRecognizer.ViewController"
+                  moduleName = "GestureRecognizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dogukan/Desktop/Ios%20Dev/GestureRecognizer/GestureRecognizer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "270FF13E-6B9D-4001-AEE6-9BDE42E1416F - fab0bdea1236b7b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GestureRecognizer.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;GestureRecognizer.ViewController&gt;"
+                  moduleName = "GestureRecognizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dogukan/Desktop/Ios%20Dev/GestureRecognizer/GestureRecognizer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
